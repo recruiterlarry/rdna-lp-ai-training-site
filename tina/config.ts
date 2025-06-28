@@ -21,7 +21,7 @@ export default defineConfig({
   },
   media: {
     tina: {
-      mediaRoot: "",
+      mediaRoot: "public",  // ← FIXED: Changed from "" to "public"
       publicFolder: "public",
     },
   },
@@ -374,4 +374,6 @@ export default defineConfig({
     ],
   },
 });
+
+
 
